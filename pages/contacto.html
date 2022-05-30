@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/icon.png">
+    <title>Hullabalooza 2023</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body class="body">
+
+    <header id="header">
+         <h1> <img src="../assets/img/header-logo.png" alt="Hullabalooza 2023"></h1>
+    </header>
+
+<!--BARRA DE LINKS ENTRE PÁGINAS-->
+
+<!--UTILIZAMOS LA CLASS NAV PARA PODER ESPECIFICAR LOS ATRIBUTOS QUE SOLO AFECTEN A ESTA SECCION Y NO A OTRAS UL-->
+    <nav class="nav">
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="info.html">INFO</a></li>
+            <li><a href="historia.html">HISTORIA</a></li>
+            <li><a href="contacto.html" class="active">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+<!--CIERRE DE FILA LOGO + NAV-->
+    <main>
+        <section class="contact">
+                <form>
+              
+                  <label for="fname">Tu nombre</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Nombre">
+              
+                  <label for="mail">Tu correo electrónico</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="subject">Selecciona el motivo de tu contacto</label>
+                  <select id="subject" name="subject">
+                    <option value="tickets">Entradas</option>
+                    <option value="returns">Cambios y Devoluciones</option>
+                    <option value="payments">Reclamos con tu pago</option>
+                  </select>
+              
+                  <label for="Tu consulta">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Escribe tu mensaje" style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+        </section>
+
+    </main>
+
+    <!--INICIO DE FOOTER-->
+    <footer>
+        <section id="ads">
+            <h2>Auspicia</h2>
+                <img src="../assets/img/brands.png">        
+        </section>
+        <p id="copyright">© The Hulla-Hulla Company, Reservados todos los derechos.</p>
+    </footer>
+</body>
+</html>
