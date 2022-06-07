@@ -126,7 +126,7 @@ margin-left:auto;}
     .card-blog{
       font-weight: 100;
       display: block;
-      padding-right: 30px;
+ 
       background-color: #ffffff;
       border-radius: 25px;
       width: 600px;;
@@ -212,7 +212,7 @@ main {text-align: center;}
 .grid-header { grid-area: grid-header;
             justify-content: center;}
 
-.grid-nav { grid-area: grid-nav; }
+.grid-nav { grid-area: grid-nav;}
 
 .grid-main {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -237,7 +237,8 @@ main {text-align: center;}
 .grid-card1 { grid-area: grid-card1; 
 padding-bottom: 30px;}
 
-.grid-card2 { grid-area: grid-card2; }
+.grid-card2 { grid-area: grid-card2;
+padding-bottom: 30px;}
 
 .grid-aside {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
