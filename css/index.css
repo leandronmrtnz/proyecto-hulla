@@ -123,35 +123,6 @@ margin-left:auto;}
     text-align: center;}
   
 
-    .card-blog{
-      font-weight: 100;
-      display: block;
-      background-color: #ffffff;
-      border-radius: 25px;
-      width: 600px;;
-      margin-left: 350px;
-      margin-right: auto;
-      color: #b3374e;
-    }
-    
-    .card__image{
-        padding: 30px;
-    
-    }
-    .card__content{
-        float: right;
-        text-align: left;
-        padding-right: 50px;
-        font-weight: 100;
-        padding-top: 35px;
-    
-      }
-    
-    .card__title {
-      font-family: Carnivale;
-      font-size: x-large;
-      font-weight: 100;
-    }
 
     #ads {
       margin-top: 50px;
