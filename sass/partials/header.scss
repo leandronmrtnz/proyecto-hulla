@@ -1,0 +1,10 @@
+#header h1 {  
+    display: block;
+    @include sidemargins(auto, auto);
+    width: 100%;
+    text-align:center;
+    background-image: url("../assets/img/background-header.png");
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
+  }

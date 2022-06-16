@@ -1,0 +1,14 @@
+#ads {
+	margin-top: 50px;
+	padding: 10px;
+	padding-bottom: 50px;
+	color: map-get($colors, base);
+	background-color: map-get($colors, main2);
+	text-align: center;
+}
+
+#copyright {
+	color: #c08054;
+	font-size: large;
+	text-align: center;
+}

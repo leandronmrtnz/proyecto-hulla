@@ -1,0 +1,35 @@
+.nav {
+	text-align: center;
+	font-family: Sonder;
+	font-size: large;
+	ul {
+		list-style-type: none;
+		margin: 0px 350px 0px 350px;
+		padding: 20px;
+		border: 1px solid #e7e7e7;
+		background-color: #e6987e;
+		text-align: center;
+		border-radius: 25px;
+		li {
+			display: inline-block;
+		}
+	}
+	li {
+		a {
+			color: map-get($colors, main1);
+			text-align: center;
+			padding: 20px 40px;
+			text-decoration: none;
+			&:hover {
+				background: rgb(246,112,93);
+				background: radial-gradient(circle, rgba(246,112,93,1) 0%, rgba(230,152,126,1) 78%);
+			}
+		}
+	}
+	.active {
+		color: map-get($colors, base);
+		background: rgb(246,112,93);
+		background: radial-gradient(circle, rgba(246,112,93,1) 0%, rgba(230,152,126,1) 78%);
+		
+	}
+}
