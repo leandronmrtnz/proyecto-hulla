@@ -1,25 +1,12 @@
-.card-blog {
-    font-weight: 100;
-    display: block;
-    background-color: #ffffff;
-    border-radius: 25px;
-    width: 600px;;
-    margin-left: 350px;
-    margin-right: auto;
-    color: #b3374e;
-    &__image {
-      padding: 30px;
-    }
-    &__content{
-      float: right;
-      text-align: left;
-      padding-right: 50px;
-      font-weight: 100;
-      padding-top: 35px;
-    }
-    &__title {
-    font-family: Carnivale;
-    font-size: x-large;
-    font-weight: 100;
-  }
-}
+
+@import './misc/mixins.scss';
+@import './misc/variables.scss';
+@import './misc/normalize.scss';
+@import './misc/animations.scss';
+
+@import './partials/header.scss';
+@import './partials/footer.scss';
+@import './partials/nav.scss';
+
+@import './pages/home.scss';
+@import './pages/contact.scss';

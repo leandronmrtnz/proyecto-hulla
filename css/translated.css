@@ -1,3 +1,54 @@
+#header h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  background-image: url("../assets/img/background-header.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+
+#ads {
+  margin-top: 50px;
+  padding: 10px;
+  padding-bottom: 50px;
+  color: #ffffff;
+  background-color: #debba0;
+  text-align: center; }
+
+#copyright {
+  color: #c08054;
+  font-size: large;
+  text-align: center; }
+
+.nav {
+  text-align: center;
+  font-family: Sonder;
+  font-size: large; }
+  .nav ul {
+    list-style-type: none;
+    margin: 0px 350px 0px 350px;
+    padding: 20px;
+    border: 1px solid #e7e7e7;
+    background-color: #e6987e;
+    text-align: center;
+    border-radius: 25px; }
+    .nav ul li {
+      display: inline-block; }
+  .nav li a {
+    color: #fef0e0;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none; }
+    .nav li a:hover {
+      background: #f6705d;
+      background: radial-gradient(circle, #f6705d 0%, #e6987e 78%); }
+  .nav .active {
+    color: #ffffff;
+    background: #f6705d;
+    background: radial-gradient(circle, #f6705d 0%, #e6987e 78%); }
+
 .card-blog {
   font-weight: 100;
   display: block;
@@ -19,3 +70,71 @@
     font-family: Carnivale;
     font-size: x-large;
     font-weight: 100; }
+
+.lineup_container {
+  color: #fdcacf;
+  margin-top: 10px;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding: 30px;
+  border: 1px solid #e7e7e7;
+  background-color: #b3374e;
+  border-radius: 25px; }
+
+.lineup {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; }
+  .lineup th {
+    font-family: Recoleta; }
+  .lineup td {
+    font-family: carnivale;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0px 40px; }
+
+#headliner {
+  font-size: x-large; }
+
+#second-row {
+  font-size: large; }
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type=submit] {
+  background-color: #e6987e;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+  input[type=submit]:hover {
+    background-color: #f6705d; }
