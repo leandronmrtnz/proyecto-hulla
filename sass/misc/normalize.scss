@@ -1,0 +1,16 @@
+.background-color {
+	background-color: #fff5d2;
+}
+
+a {color: map-get($colors, main1);
+	&:hover {
+		background: rgb(246,112,93);
+		background: radial-gradient(circle, rgba(246,112,93,1) 0%, rgba(230,152,126,1) 78%);
+	}
+	&:active {
+		color: map-get($colors, base);
+		background: rgb(246,112,93);
+		background: radial-gradient(circle, rgba(246,112,93,1) 0%, rgba(230,152,126,1) 78%);
+}}
+
+	

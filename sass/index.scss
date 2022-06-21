@@ -3,6 +3,8 @@
 @import './misc/variables.scss';
 @import './misc/normalize.scss';
 @import './misc/animations.scss';
+@import './misc/fonts.scss';
+@import './misc/grid.scss';
 
 @import './partials/header.scss';
 @import './partials/footer.scss';
@@ -10,3 +12,6 @@
 
 @import './pages/home.scss';
 @import './pages/contact.scss';
+@import './pages/historia.scss';
+@import './pages/info.scss';
+@import './pages/news.scss';

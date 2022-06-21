@@ -52,3 +52,32 @@
 #second-row {
 	font-size: large;
 }
+
+.timer {
+	font-family: Recoleta;
+	font-weight: 100;
+	height: 213px;
+	display: inline-block;
+	background-color: #ffffff;
+	border-radius: 25px;
+	width: 350px;
+	text-align: center;
+	color: #b3374e;
+	padding-top: 25px;
+	vertical-align: middle;
+}
+
+#demo {
+	font-weight: 200;
+	font-family: carnivale;
+	font-size: 300%;
+}
+
+#slideshow_container {
+	margin-top: 30px;
+	margin-left: 350px;
+	margin-right: 350px;
+	text-align: center;
+}
+
+.lineup_container h2 {font-family: Recoleta}
