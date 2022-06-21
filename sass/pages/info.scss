@@ -1,0 +1,15 @@
+.ubicacioneinfo {
+                display:inline;
+                text-align: center;
+                margin-top: 30px;
+                @include sidemargins(350px, 350px);
+            
+                h2 {font-family: Carnivale;
+                color:map-get($colors, accent)}
+                p {font-family: Recoleta;
+                color:map-get($colors, accent);}
+            }
+
+                
+
+                

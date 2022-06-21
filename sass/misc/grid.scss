@@ -1,0 +1,106 @@
+main {
+	text-align: center;
+	height: auto;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.grid-layout {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto auto auto;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas: "grid-header grid-header grid-header" "grid-nav grid-nav grid-nav" "grid-main grid-main grid-main" "grid-main grid-main grid-main" "grid-footer grid-footer grid-footer";
+	height: auto;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.grid-header {
+	grid-area: grid-header;
+	justify-content: center;
+}
+.grid-nav {
+	grid-area: grid-nav;
+}
+.grid-main {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas: "grid-headliners grid-headliners grid-headliners" "grid-slideshow grid-slideshow grid-slideshow" "grid-news grid-news grid-aside";
+	grid-area: grid-main;
+	justify-content: center;
+}
+.grid-headliners {
+	grid-area: grid-headliners;
+	justify-content: center;
+	align-content: center;
+}
+.grid-slideshow {
+	grid-area: grid-slideshow;
+	justify-content: center;
+}
+.grid-card1 {
+	grid-area: grid-card1;
+	padding-bottom: 30px;
+}
+.grid-card2 {
+	grid-area: grid-card2;
+	padding-bottom: 30px;
+}
+.grid-aside {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas: "grid-counter grid-counter grid-counter" "grid-widget grid-widget grid-widget";
+	grid-area: grid-aside;
+	margin-right: 350px;
+}
+.grid-counter {
+	grid-area: grid-counter;
+	justify-content: center;
+	margin-right: 350px;
+}
+.grid-widget {
+	grid-area: grid-widget;
+}
+.grid-footer {
+	grid-area: grid-footer;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: max-content;
+}
+.grid-news {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	gap: 0px 0px;
+	grid-template-areas: "grid-card1 grid-card1 grid-card1" "grid-card2 grid-card2 grid-card2";
+	grid-area: grid-news;
+	margin-top: 30px;
+}
+
+.grid-main-contact {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas: "grid-headliners grid-headliners grid-headliners" "grid-slideshow grid-slideshow grid-slideshow" "grid-news grid-news grid-aside";
+	grid-area: grid-main;
+	justify-content: center;
+}
+.grid-counter {
+	margin-right: 350px;
+	padding: 30px 10px 30px 10px;
+}
+.grid-widget {
+	margin-left: 10px;
+}
+
+.grid-nav {
+	margin-left: auto;
+	margin-right: auto;
+}
